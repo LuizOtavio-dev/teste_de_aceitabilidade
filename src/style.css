@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+body {
+    background-color: antiquewhite;
+    color: #6c757d;
+}
+
+img {
+    width: 100px;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #343a40;
+    padding: 10px;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+#header {
+    align-items: center;
+    background-color: #007bff;
+    color: whitesmoke;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#age-label {
+    margin-right: 30px;
+}
+
+#date-label {
+    margin-right: 30px;
+}
+
+#img-opinion-red:hover, #img-opinion-yallow:hover,
+#img-opinion-green:hover, #btn-start:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#amount-votes-red {
+    background-color: red;
+    border-radius: 100%;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+#amount-votes-yallow {
+    background-color: yellow;
+    border-radius: 100%;
+    color: #343a40;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+#amount-votes-green {
+    background-color: green;
+    border-radius: 100%;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+
+#section-aliment {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    align-items: center;
+    background-color: #343a40;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.section-informations {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section-choice {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-choice-opinion-container {
+    align-items: center;
+    display: flex;
+
+}
+
+.section-choice-opinion {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}

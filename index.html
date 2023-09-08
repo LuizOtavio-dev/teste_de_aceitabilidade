@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Teste de Aceitabilidade</title>
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body>
+        <header id="header">
+            <img src="./image/logo.png" alt="logo">
+            <h1>TESTE DE ACEITABILIDADE DA ALIMENTAÇÃO ESCOLAR</h1>
+        </header>
+        <main>
+            <section class="section-informations">
+                <label for="age" id="age-label">IDADE DAS CRIANÇAS
+                    <input type="text" id="age">
+                </label>
+                <label for="date" id="date-label">DATA
+                    <input type="date" id="date">
+                </label>
+                <button type="reset" id="btn-start">INICIAR</button>
+            </section>
+            <section class="section-choice">
+                <div class="section-choice-title">
+                    <h3>MARQUE A CARINHA QUE MAIS REPRESENTA O QUE VOCÊ ACHOU</h3>
+                </div>
+                <div class="section-choice-opinion-container">
+                    <div class="section-choice-opinion">
+                        <img id="img-opinion-red" src="./image/emoji_red.png" alt="não gostei">
+                        <p>Não Gostei</p>
+                        <p id="amount-votes-red">0</p>
+                    </div>
+                    <div class="section-choice-opinion">
+                        <img id="img-opinion-yallow" src="./image/emoji_yallow.png" alt="indiferente">
+                        <p>Indiferente</p>
+                        <p id="amount-votes-yallow">0</p>
+                    </div>
+                    <div class="section-choice-opinion">
+                        <img id="img-opinion-green" src="./image/emoji_green.png" alt="gostei">
+                        <p>Gostei</p>
+                        <p id="amount-votes-green">0</p>
+                    </div>
+                </div>
+            </section>
+            <section id="section-aliment">
+                <label for="aliment">PREPARAÇÃO
+                    <input type="text" id="aliment">
+                </label>
+            </section>
+        </main>
+        <footer id="footer">
+            <h5>Nutricionista: Diane</h5>
+            <h5>Copyright 2023 - Todos os direitos reservados.</h5>
+        </footer>
+        <script type="module" src="./src/main.js"></script>
+    </body>
+</html>
